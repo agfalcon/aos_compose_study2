@@ -9,4 +9,5 @@
     <string name="title_activity_drop_down">DropDownActivity</string>
     <string name="title_activity_snack_bar">SnackBarActivity</string>
     <string name="title_activity_bottom_app_bar_activitiy">BottomAppBarActivitiy</string>
+    <string name="title_activity_state_hoisting">StateHoistingActivity</string>
 </resources>

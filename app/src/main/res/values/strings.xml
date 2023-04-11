@@ -7,4 +7,5 @@
     <string name="title_activity_dialog">DialogActivity</string>
     <string name="title_activity_custom_dialog">CustomDialogActivity</string>
     <string name="title_activity_drop_down">DropDownActivity</string>
+    <string name="title_activity_snack_bar">SnackBarActivity</string>
 </resources>

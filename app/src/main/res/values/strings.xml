@@ -5,4 +5,5 @@
     <string name="title_activity_constraint_layout_up">ConstraintLayoutUpActivity</string>
     <string name="title_activity_canvas">CanvasActivity</string>
     <string name="title_activity_dialog">DialogActivity</string>
+    <string name="title_activity_custom_dialog">CustomDialogActivity</string>
 </resources>

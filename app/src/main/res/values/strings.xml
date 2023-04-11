@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ComposeStudy</string>
+    <string name="title_activity_constraint_set">ConstraintSetActivity</string>
 </resources>

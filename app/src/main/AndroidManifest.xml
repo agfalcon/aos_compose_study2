@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,15 +15,26 @@
         android:theme="@style/Theme.ComposeStudy"
         tools:targetApi="31">
         <activity
+            android:name=".BottomAppBarActivitiy"
+            android:exported="true"
+            android:label="@string/title_activity_bottom_app_bar_activitiy"
+            android:theme="@style/Theme.ComposeStudy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".SnackBarActivity"
             android:exported="true"
             android:label="@string/title_activity_snack_bar"
             android:theme="@style/Theme.ComposeStudy">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -51,7 +62,6 @@
             android:exported="true"
             android:label="@string/title_activity_dialog"
             android:theme="@style/Theme.ComposeStudy">
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -3,4 +3,5 @@
     <string name="title_activity_constraint_set">ConstraintSetActivity</string>
     <string name="title_activity_barrier_and_chain">BarrierAndChainActivity</string>
     <string name="title_activity_constraint_layout_up">ConstraintLayoutUpActivity</string>
+    <string name="title_activity_canvas">CanvasActivity</string>
 </resources>

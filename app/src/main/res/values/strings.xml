@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ComposeStudy</string>
     <string name="title_activity_constraint_set">ConstraintSetActivity</string>
+    <string name="title_activity_barrier_and_chain">BarrierAndChainActivity</string>
 </resources>
